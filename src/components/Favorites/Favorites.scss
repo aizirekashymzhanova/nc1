@@ -1,0 +1,29 @@
+@import "../../assets/variables/variables.scss";
+.favorites {
+  position: fixed;
+  overflow: hidden;
+  left: 3;
+  width: 20vw;
+  height: 80vh;
+  border: 2px dashed $textColor;
+  border-radius: 30px;
+  font-family: "Anek Telugu";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  padding: 1%;
+}
+.cardContent {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: $textColor;
+}
+.favPrice {
+  font-size: 20px;
+  font-weight: 500;
+}

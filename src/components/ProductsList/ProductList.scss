@@ -1,0 +1,27 @@
+@import "../../assets/variables/variables.scss";
+.p {
+  height: 100vh;
+  position: absolute;
+  left: 28vw;
+  width: 70vw;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+}
+.oneCard {
+  padding: 1%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  border: 1px dashed $textColor;
+  border-radius: 30px;
+  margin: 1%;
+  color: $textColor;
+}
+.cardActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
