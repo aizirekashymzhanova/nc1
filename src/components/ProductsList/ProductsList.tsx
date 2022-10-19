@@ -16,16 +16,6 @@ import OneProduct from "../OneProduct/OneProduct";
 
 const ProductsList: FC = (props: any) => {
   const [products] = useGlobalState("products");
-  // const navigate = useNavigate();
-  console.log(products);
-  // const { products } = props;
-  // const foo = (link: string) => {
-  //   navigate(link);
-  //   return (event: React.MouseEvent) => {
-  //     navigate(link);
-  //     event.preventDefault();
-  //   };
-  // };
 
   return (
     <div className="p">

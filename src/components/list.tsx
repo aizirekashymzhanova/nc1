@@ -18,7 +18,6 @@ const List = () => {
       console.log(err);
     }
   };
-  console.log(products);
   useEffect(() => {
     getProducts();
   }, []);
